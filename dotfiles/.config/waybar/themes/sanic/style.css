@@ -194,6 +194,12 @@ window#waybar.empty #window {
   color: @iconcolor;
 }
 
+#custom-keybindings {
+  margin: 0px 16px 0px 16px;
+  padding: 0px;
+  font-size: 20px;
+}
+
 #custom-settings {
   margin-right: 16px;
 }

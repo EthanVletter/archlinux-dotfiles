@@ -29,7 +29,7 @@
 
   // Modules Left
   "modules-left": [
-    "custom/appmenu",
+    // "custom/appmenu",
     "custom/keybindings",
     "custom/settings",
     // "custom/wallpaper",
@@ -40,6 +40,7 @@
 
   // Modules Center
   //   "modules-center": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
 
   // Modules Right
   "modules-right": [
@@ -49,13 +50,13 @@
     "battery",
     "network",
     // "group/hardware",
-    "custom/cliphist",
-    "custom/hypridle",
-    "custom/hyprshade",
+    // "custom/cliphist",
+    // "custom/hypridle",
+    // "custom/hyprshade",
     "tray",
-    "custom/ml4w-welcome",
     "custom/notification",
-    "clock",
+    "custom/ml4w-welcome",
+    // "clock",
     "custom/exit"
   ]
 }

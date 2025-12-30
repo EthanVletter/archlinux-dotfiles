@@ -1,0 +1,2 @@
+thunar
+# dolphin --new-window

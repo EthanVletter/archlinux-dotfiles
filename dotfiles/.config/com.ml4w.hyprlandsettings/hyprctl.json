@@ -1,0 +1,10 @@
+[
+    {
+        "key": "input:touchpad:natural_scroll",
+        "value": "true"
+    },
+    {
+        "key": "decoration:rounding",
+        "value": 3
+    }
+]

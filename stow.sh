@@ -1,0 +1,1 @@
+stow -d ~/projects/archlinux-dotfiles/ -t ~/ dotfiles

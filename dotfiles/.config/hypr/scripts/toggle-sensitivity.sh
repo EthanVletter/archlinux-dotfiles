@@ -3,8 +3,10 @@
 STATE="$HOME/.cache/sens_mode"
 
 if [[ "$(cat "$STATE" 2>/dev/null)" == "low" ]]; then
-    hyprctl keyword input:sensitivity 0
+    hyprctl keyword input:sensitivity 0.2
+    # hyprctl keyword input:sensitivity 0
     hyprctl keyword input:accel_profile adaptive
+    # hyprctl keyword input:accel_profile flat
     echo "high" > "$STATE"
     notify-send "Touchpad Mode" "Touchpad settings applied"
 else
